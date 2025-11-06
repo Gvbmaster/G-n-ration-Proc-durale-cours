@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: New Cellular Automata
   m_EditorClassIdentifier: 
   _maxSteps: 10
-  roomDensity: 50
+  _waterDensity: 39
