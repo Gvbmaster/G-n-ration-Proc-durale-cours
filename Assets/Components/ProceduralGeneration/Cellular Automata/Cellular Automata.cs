@@ -48,7 +48,7 @@ public class CellularAutomata : ProceduralGenerationMethod
                     {
                         int waterNeighbors = CountWaterNeighbors(x, y);
 
-                        // Exemple de règle simple : l’eau se propage ou disparaît selon ses voisines
+                        // Règle ici
                         if (cell.GridObject.Template.Name == WATER_TILE_NAME)
                         {
                             if (waterNeighbors < 3)
