@@ -31,12 +31,14 @@ public class NoiseGenerator : ProceduralGenerationMethod
     {
         FastNoiseLite noise = new FastNoiseLite();
         noise.SetNoiseType(_NoiseType);
+        noise.SetSeed(RandomService.Seed);
 
         // Gather noise data
         float[,] noiseData = new float[Grid.Width, Grid.Lenght];
         noise.SetFrequency(_Frequency);
         noise.SetFractalGain(_Persistance);
         noise.SetFractalLacunarity(_Lacunarity);
+        noise.SetFractalOctaves(_Octave);
 
         for (int x = 0; x < Grid.Width; x++)
         {

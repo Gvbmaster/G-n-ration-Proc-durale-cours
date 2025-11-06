@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: New Noise Generator
   m_EditorClassIdentifier: 
   _maxSteps: 10
-  _waterDensity: 45
+  _NoiseType: 0
+  _Frequency: 0.124
+  _Amplitude: 1
+  _Lacunarity: 1.07
+  _Persistance: 0.89
+  _Octave: 3
+  _WaterHeight: -0.1
+  _SandHeight: 0.25
+  _GrassHeight: 0.74
+  _RockHeight: 1
