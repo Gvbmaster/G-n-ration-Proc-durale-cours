@@ -31,43 +31,38 @@ Chaque salle possède une taille et des coordonnées déterminées de manière a
 5. Accepter ou rejeter la salle si elle se trouve sur un autre
 6. Ajouter les salles valides à la carte
 
-```markdown
-![Simple Placement Room](assets/image/SPM.gif)
-
+![Simple Placement Room](Image/SPM.gif)
 
 ---
 
 # BSP (Binary Space Partitioning)
 
 ## Principe
-Le BSP découpe RÉCURSIVEMENT( c'est important car il nous as bien fait galérer) un espace en sous-régions, puis place une salle dans chaque partition.
+Le BSP découpe **récursivement** un espace en sous-régions, puis place une salle dans chaque partition.
 
 ## Algorithme
 1. Diviser l'espace initial en deux sous-espaces
-2. Répéter la division récursivement selon les paramètres données
+2. Répéter la division récursivement selon les paramètres donnés
 3. Générer une salle dans chaque partition
 4. Connecter les salles avec des corridors
 5. Construire la carte finale à partir de l’arborescence de partitions
 
-![BSP Example](assets/images/BSP.png)
-
+![BSP Example](Image/BSP.png)
 
 ---
 
 # Cellular Automata
 
 ## Principe
-Utilisation d’un automate cellulaire pour générer différent type de paysage, carte ...
+Utilisation d’un automate cellulaire pour générer différents types de paysages, cartes, etc.
 
-## Algorithme
 1. Générer une grille initiale de cellules (mur / vide)
 2. Appliquer les règles
 3. Répéter le processus durant plusieurs itérations
 4. Lisser ou nettoyer les zones pour obtenir un meilleur rendu
 5. Produire la carte finale
 
-```markdown
-![Simple Placement Room](assets/image/CellularAutomata.gif)
+![Cellular Automata](Image/CellularAutomata.gif)
 
 ---
 
@@ -79,12 +74,9 @@ On utilise des fonctions de Noise pour générer des valeurs continues, permetta
 ## Algorithme
 1. Générer une carte de valeurs via le noise
 2. Appliquer des seuils ou des masques (ex : altitude, biome)
-3. Ajouter éventuellement plusieurs couches grace aux octaves
+3. Ajouter éventuellement plusieurs couches grâce aux octaves
 4. Composer un rendu final
 
-```markdown
-![Simple Placement Room](assets/image/Noise.gif)
+![Noise Example](Image/Noise.gif)
 
 ---
-
-
