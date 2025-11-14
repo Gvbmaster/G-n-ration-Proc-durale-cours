@@ -31,3 +31,6 @@ Chaque salle possède une taille et des coordonnées déterminées de manière a
 4. Tenter de placer chaque salle à un emplacement valide
 5. Vérifier la salle entre en collision avec une autre salle
 6. Ajouter les salles valides à la carte
+
+
+![til](./assets/image/)
